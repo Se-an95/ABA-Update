@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="campstyles.css">
+	<link rel="stylesheet" href="styles.css">
+    <title>Camp Life</title>
+</head>
+<body>
+	<div id="nav-bar">
+        <a href=index.html><img src="logo.png" alt="Site Logo" class="logo-image"></a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="division.html">Division</a></li>
+                <li><a href="camp.html">Camp-Life</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <h1>Here are some pictures from our previous camps</h1>
+	<p>Our previous camps were a blast! We had so much fun exploring the outdoors, making new friends, and trying out new activities.<br> From hiking and swimming to arts and crafts, there was something for everyone.<br> Our experienced counselors and instructors made sure everyone had a safe and enjoyable time.<br> Check out the pictures below to see some of the highlights!</p>
+    <div class="image-viewer">
+        <img id="img1" src="CampPhotos/camp1.jpeg" alt="Image 1" data-index="0">
+        <img id="img2" src="CampPhotos/camp2.jpeg" alt="Image 2" data-index="1">
+        <img id="img3" src="CampPhotos/camp3.jpeg" alt="Image 3" data-index="2">
+        <img id="img4" src="CampPhotos/camp4.jpeg" alt="Image 4" data-index="3">
+        <img id="img5" src="CampPhotos/camp5.jpeg" alt="Image 5" data-index="4">
+        <img id="img6" src="CampPhotos/camp6.jpeg" alt="Image 6" data-index="5">
+        <img id="img7" src="CampPhotos/camp7.jpeg" alt="Image 7" data-index="6">
+        <img id="img8" src="CampPhotos/camp8.jpeg" alt="Image 8" data-index="7">
+        <img id="img9" src="CampPhotos/camp9.jpeg" alt="Image 9" data-index="8">
+        <img id="img10" src="CampPhotos/camp10.jpg" alt="Image 10" data-index="9">
+        <button class="prev-btn">Prev</button>
+        <button class="next-btn">Next</button>
+    </div>
+    <script src="camp.js"></script>
+	<div class="subscription-form-container">
+		<form action="" method="POST">
+			<input type="email" placeholder="Enter your email address" name="email" required>
+			<label>
+				<input type="checkbox" name="subscribe" value="1">
+				Subscribe to newsletter
+			</label>
+			<button type="submit">Subscribe</button>
+		</form>
+	</div>
+	
+	<div class="registration-form-container">
+		<section>
+			<h2>Register for the June Camp</h2>
+			<form action="" method="POST">
+				<label>
+					First Name:
+					<input type="text" name="firstname" required>
+				</label>
+				<br>
+				<label>
+					Last Name:
+					<input type="text" name="lastname" required>
+				</label>
+				<br>
+				<label>
+					Email:
+					<input type="email" name="email" required>
+				</label>
+				<br>
+				<label>
+					Phone:
+					<input type="tel" name="phone" required>
+				</label>
+				<br>
+				<label>
+					Age:
+					<input type="number" name="age" required>
+				</label>
+				<br>
+				<label>
+					T-shirt size:
+					<select name="size" required>
+						<option value="">Select size</option>
+						<option value="S">Small</option>
+						<option value="M">Medium</option>
+						<option value="L">Large</option>
+						<option value="XL">X-Large</option>
+					</select>
+				</label>
+				<br>
+				<button type="submit">Register</button>
+			</form>
+		</section>
+	</div>	
+
+	<footer>
+		<div class="container">
+			<div class="newsletter">
+				<h3>Subscribe to our Newsletter</h3>
+				<form action="" method="POST">
+					<input type="email" placeholder="Enter your email address" name="email" required>
+					<button type="submit">Subscribe</button>
+				</form>
+			</div>
+			<div class="contact">
+				<h3>Contact Us</h3>
+				<p>Email: info@company.com</p>
+				<p>Phone: <a href="tel:123-456-7890">123-456-7890</a></p>
+			</div>
+			<div class="follow-us">
+				<h3>Follow Us</h3>
+				<div class="social-media">
+					<a href="https://web.facebook.com/profile.php?id=100090347521972"><i class="fab fa-facebook-f"></i></a>
+					<a href="https://twitter.com/ShaunAlec1"><i class="fab fa-twitter"></i></a>
+					<a href="https://www.instagram.com/_boy_wonderr/#"><i class="fab fa-instagram"></i></a>
+				</div>
+			</div>
+			<div class="address">
+				<h3>Our Address</h3>
+				<p>123 Main St,Johannesburg, 2107</p>
+				<p>Gauteng, SA</p>
+			</div>
+		</div>
+	</footer>
+	
+</body>
+</html>
+
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contact</title>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="icon" href="favicon.png" type="image/x-icon">
+	<style>
+		ul {
+			list-style: none;
+			padding: 0;
+		}
+		li {
+			margin-bottom: 10px;
+		}
+		form {
+			margin-top: 20px;
+		}
+		label {
+			display: block;
+			font-weight: bold;
+			margin-bottom: 5px;
+		}
+		input, textarea {
+			border: 1px solid #ccc;
+			padding: 5px;
+			font-size: 1rem;
+			width: 100%;
+			box-sizing: border-box;
+			margin-bottom: 10px;
+		}
+		input[type="submit"] {
+			background-color: #333;
+			color: #fff;
+			border: none;
+			padding: 10px;
+			cursor: pointer;
+		}
+		input[type="submit"]:hover {
+			background-color: #555;
+		}
+	</style>
+</head>
+<body>
+	<div id="nav-bar">
+        <a href=index.html><img src="logo.png" alt="Site Logo" class="logo-image"></a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="division.html">Division</a></li>
+                <li><a href="camp.html">Camp-Life</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+	<main>
+		<h1>Contact Us</h1>
+		<p>You can reach us at contact@mywebsite.com.</p>
+		<p>Please feel free to reach out to us with any questions or concerns you may have.</p>
+		<h2>Board of Directors</h2>
+		<ul>
+			<li><strong>Director Name:</strong> Sarah</li>
+			<li><strong>Email:</strong> sarah@gmail.com</li>
+			<li><strong>Phone:</strong> +27-61-617-9804</li>
+		</ul>
+		<h2>Committee Members</h2>
+		<ul>
+			<li><strong>Committee Member Name:</strong> John</li>
+			<li><strong>Email:</strong> john@gmail.com</li>
+			<li><strong>Phone:</strong>+27-61-617-9804 </li>
+		</ul>
+		<h2>General Inquiries</h2>
+		<p>If you have a general question or comment, please email us at aba&co@gmail.com.</p>
+		<form method="post" action="mailto:shaunalecx@gmail.com">
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" placeholder="Your name">
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" placeholder="Your email address">
+			<label for="message">Message:</label>
+			<textarea id="message" name="message" rows="5" placeholder="Your message"></textarea>
+			<input type="submit" value="Submit">
+		</form>
+	</main>
+	<footer>
+		<div class="container">
+			<div class="newsletter">
+				<h3>Subscribe to our Newsletter</h3>
+				<form action="" method="POST">
+					<input type="email" placeholder="Enter your email address" name="email" required>
+					<button type="submit">Subscribe</button>
+				</form>
+			</div>
+			<div class="contact">
+				<h3>Contact Us</h3>
+				<p>Email: info@company.com</p>
+				<p>Phone: <a href="tel:123-456-7890">123-456-7890</a></p>
+			</div>
+			<div class="follow-us">
+				<h3>Follow Us</h3>
+				<div class="social-media">
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+				</div>
+			</div>
+			<div class="address">
+				<h3>Our Address</h3>
+				<p>123 Main St,Johannesburg, 2107</p>
+				<p>Gauteng, SA</p>
+			</div>
+		</div>
+	</footer>
+	
+</body>
+</html>

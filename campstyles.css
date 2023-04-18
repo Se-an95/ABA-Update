@@ -1,0 +1,131 @@
+  .image-viewer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    max-width: 800px;
+  }
+  
+  .image-viewer img {
+    max-width: 100%;
+    height: auto;
+    display: none;
+  }
+  
+  .image-viewer img:first-child {
+    display: block;
+  }
+  
+  .prev-btn, .next-btn {
+    border: none;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .prev-btn:hover, .next-btn:hover {
+    background-color: #555;
+  }
+  
+  @media (max-width: 600px) {
+    .prev-btn, .next-btn {
+      font-size: 14px;
+    }
+  }
+  
+/*Form Styles*/
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Subscription form styles */
+  .subscription-form-container {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 600px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: goldenrod; /* light gray */
+  }
+  
+  .subscription-form-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .subscription-form-container input[type="email"] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+  
+  .subscription-form-container input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .subscription-form-container button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .subscription-form-container button:hover {
+    background-color: #0069d9;
+  }
+  
+  /* Registration form styles */
+  .registration-form-container {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: burlywood; /* light gray */
+  }
+  
+  .registration-form-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .registration-form-container input[type="text"],
+  .registration-form-container input[type="email"],
+  .registration-form-container input[type="tel"],
+  .registration-form-container input[type="number"],
+  .registration-form-container select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+  
+  .registration-form-container select {
+    margin-top: 5px;
+  }
+  
+  .registration-form-container button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .registration-form-container button:hover {
+    background-color: #0069d9;
+  }
+  

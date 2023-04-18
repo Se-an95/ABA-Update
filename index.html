@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+	<link rel="icon" href="favicon.png" type="image/x-icon">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-L/sCnLrkOn3q4D4l05tlQ2+OhKZzHSvj/tS5v/ggR/ZPIL5H5p5BIZ8foNvRjDInNyPOYlhHw3qG3BcvgxhX2Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script src="script.js"></script>
+    <title>Homapage</title>
+    <style>
+        /* Main Section */
+        .main-section {
+            background-color: transparent;
+            padding: 50px 0;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .about-section,
+        .division-section,
+        .camping-section {
+            width: 30%;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .about-section h2,
+        .division-section h2,
+        .camping-section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .about-section p,
+        .division-section p,
+        .camping-section p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .about-section a,
+        .division-section a,
+        .camping-section a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .about-section a:hover,
+        .division-section a:hover,
+        .camping-section a:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+	<div id="nav-bar">
+        <a href=index.html><img src="logo.png" alt="Site Logo" class="logo-image"></a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="division.html">Division</a></li>
+                <li><a href="camp.html">Camp-Life</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+	<main>
+		<h1>Welcome to Our Website!</h1>
+		<p>We are thrilled to have you here.</p>
+		<p>Explore our pages to learn more about our organization.</p>
+	</main>
+	<section class="main-section">
+        <div class="container">
+            <div class="about-section">
+                <h2>About Us</h2>
+                <p>Our camping website is run by a team of passionate outdoor enthusiasts.</p>
+                <a href="about.html">Learn more</a>
+            </div>
+			<div class="division-section">
+                <h2>Our Divisions</h2>
+                <p>Our camping website is divided into three main sections: "Campsites," "Gear," and "Safety." </p>
+                <a href="division.html">Learn more</a>
+            </div>
+            <div class="camping-section">
+                <h2>Camping Gear</h2>
+                <p>Our "Camping Life" section is your go-to resource for enhancing your outdoor experience. </p>
+                <a href="camp.html">Learn more</a>
+            </div>
+        </div>
+    </section>
+	<footer>
+		<div class="container">
+			<div class="newsletter">
+				<h3>Subscribe to our Newsletter</h3>
+				<form action="" method="POST">
+					<input type="email" placeholder="Enter your email address" name="email" required>
+					<button type="submit">Subscribe</button>
+				</form>
+			</div>
+			<div class="contact">
+				<h3>Contact Us</h3>
+				<p>Email: info@company.com</p>
+				<p>Phone: <a href="tel:123-456-7890">123-456-7890</a></p>
+			</div>
+			<div class="follow-us">
+				<h3>Follow Us</h3>
+				<div class="social-media">
+					<a href="https://web.facebook.com/profile.php?id=100090347521972"><i class="fab fa-facebook-f"></i></a>
+					<a href="https://twitter.com/ShaunAlec1"><i class="fab fa-twitter"></i></a>
+					<a href="https://www.instagram.com/_boy_wonderr/#"><i class="fab fa-instagram"></i></a>
+				</div>
+			</div>
+			<div class="address">
+				<h3>Our Address</h3>
+				<p>123 Main St,Johannesburg, 2107</p>
+				<p>Gauteng, SA</p>
+			</div>
+		</div>
+	</footer>
+	
+</body>
+</html>
